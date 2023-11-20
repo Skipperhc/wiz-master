@@ -1,0 +1,104 @@
+body {
+    flex-direction: column;
+    display: flex;
+}
+
+.titulo {
+    flex: 1;
+}
+
+.bloco_img {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-right: 80px;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    flex: 1;
+}
+
+.div-btn {
+    display: flex;
+    margin-top: 40px;
+    justify-content: flex-end;
+}
+
+.btn {
+    height: 40px;
+    width: auto;
+    background-color: black;
+    color:white;
+    padding-inline: 20px;
+}
+
+.img {
+    height: auto;
+    width: 20%;
+}
+header {
+    display: flex;
+    position: relative;
+    border: 2px solid #000000;
+    border-width: auto;
+    border-radius: 10px;
+    padding: 6px;
+    text-align: center;
+    align-items: auto;
+    background-color: white;
+    width: 99%;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    transform: translate(-50%, -50%);
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-image {
+    text-align: left;
+    width: 300px;
+    height: 12vh;
+}
+
+footer {
+    border: 2px solid #000000;
+    border-width: auto;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.parceiro {
+    position: relative;
+    display: flex;
+    padding: 0%;
+    border-width: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-image {
+    text-align: left;
+    width: 300px;
+    height: 12vh;
+    display: flex;
+    height: auto;
+}
+
+.voltar {
+    width: 8vh;
+    height: 10vh;
+    text-align: left;
+}

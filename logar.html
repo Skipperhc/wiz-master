@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="/css/logar.css">
+</head>
+<header>
+    <a href="/home.html">
+
+        <img class="voltar" src="/imgagem/voltar.png">
+    </a>
+    <img class="header-image" src="/imgagem/Wiz-logo.png">
+
+</header>
+
+<body>
+    <div class="container">
+        <div class="card">
+
+            <h1>Login</h1>
+
+            <form action="processar_login.php" method="post">
+                <div class="form-group">
+                    <div class="nome_usu">
+                        <label for="username">Nome de Usuário</label>
+                    </div>
+                    <input type="text" id="username" placeholder="joãopão" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" placeholder="A@#124AZ" name="password" required>
+                </div>
+                <a href="/paginaP.html" class="btn">Entrar</a>
+            </form>
+            <div class="esqueciSenha">
+                <p> <a href="/esqueciSenha.html">Esqueci minha senha</a></p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<footer>
+    <div class="parceiro">
+        <h1 class="text_black">Parceiros:</h1>
+        <img class="parceiro-image" src="imgagem/unibrasil img.png" height="90vh">
+
+        <h1 class="text_black">Nos siga em: Youtube.com/wiz ou x.com/wiz</h1>
+        <img class="footer-image" src="/imgagem/Wiz-logo.png">
+
+
+    </div>
+</footer>
+</html>

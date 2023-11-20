@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="/css/quiz.css">
+    <script type="text/javascript" src="/Js/quiz_G.js"></script>
+</head>
+
+<body>
+    <div class="superior_part">
+        <div class="btn_voltar">
+            <a href="./inicialQuiz_G.html"><img class="img_voltar" src="../imgs/voltar.png" alt=""></a>
+        </div>
+        <img class="img_question" src="/imgs/Foto-ilustrativa-PME.png" alt="Imagem ilustrando a questão">
+        <div class="points">
+            <img class="img_star" src="/imgs/estrela.png" alt="Estrela preta">
+            <p id="number_points">0</p>
+        </div>
+    </div>
+    <div class="question_container">
+        <h1 id="questao" class="question">Questão quanto a matéria</h1>
+    </div>
+    <div class="answers">
+        <div onclick="proxQuestao(1)" class="card">
+            <p id="answer1">é dois</p>
+        </div>
+        <div onclick="proxQuestao(2)" class="card">
+            <p id="answer2">obviamente é 4</p>
+        </div>
+        <div onclick="proxQuestao(3)" class="card">
+            <p id="answer3">abacate</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

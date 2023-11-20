@@ -1,0 +1,55 @@
+.image-container {
+    align-self: stretch;
+}
+
+#stretch-image {
+    width: 100%;
+    height: 300px;
+}
+
+.div_img {
+    flex: 1;
+}
+
+.cards {
+    display: flex;
+    padding-right: 32%;
+    justify-content: space-between;
+}
+
+.card {
+    margin: 10px;
+    flex: 1;
+    background-color: #f0f0f0;
+    border: 4px solid #b1b1b1;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.img_voltar {
+    height: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.div-btn {
+    display: flex;
+    margin-top: 20px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.btn {
+    height: auto;
+    flex: 1;
+    font-size: 50px;
+    background-color: black;
+    color:white;
+    padding-inline: 20px;
+}

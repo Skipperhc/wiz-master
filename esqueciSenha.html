@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redefinição de Senha</title>
+    <link rel="stylesheet" href="/css/esqueciSenha.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Redefinição de Senha</h1>
+        <form action="processar_cadastro.php" method="post">
+            <div class="form-group">
+                <label for="nome">Nova Senha</label>
+                <input type="password" id="nome" name="nome" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="senha">Confirmacao de nova Senha</label>
+                <input type="password" id="senha" name="senha" required>
+            </div>
+           
+            <a href="/logar.html" class="btn-login">Confirmar</a>
+            
+        </form>
+       
+    </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+body {
+}
+
+.points {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_star{
+    height: 100px;
+    width: auto;
+}
+
+.superior_part {
+    display: flex;
+    flex: 1;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.img_question {
+    height: 300px;
+    width: 50%;
+}
+
+.question_container {
+    display: flex;
+    text-align: center;
+}
+
+.question {
+    flex: 1;
+}
+
+.answers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_voltar {
+    height: 150px;
+}
+
+.btn {
+    height: auto;
+    flex: 1;
+    font-size: 50px;
+    background-color: black;
+    color:white;
+    padding-inline: 20px;
+}
+
+.card {
+    height: 100px;
+    text-align: center;
+    margin: 10px;
+    width: 25%;
+    background-color: #f0f0f0;
+    border: 4px solid #b1b1b1;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
